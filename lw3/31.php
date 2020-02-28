@@ -1,5 +1,5 @@
 <?php
-  function getGetParametr(string $_text):?string
+  function getGetParametr(string $text):?string
   {
     return isset($_GET[$text]) ? (string)$_GET[$text] : null;
   }
