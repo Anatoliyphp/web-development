@@ -5,7 +5,14 @@
   }
 
   $text = getGetParametr('text');
-  $text = trim($text);
-  $text = preg_replace('/\s+/', ' ', $text);
+  if ctype_digit(string $text) : bool;
+  {
+  echo 'No'
+  }
+  else
+  }
+  echo 'Yes'
+  {  
   header("Content-Type: text/plain");
   echo $text;
+  
