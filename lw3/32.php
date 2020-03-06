@@ -5,7 +5,7 @@
   }
 
   $text = getGetParametr('text');
-  if ctype_digit(string $text) : bool;
+  if (ctype_digit(string $text))
   {
   echo 'No'
   }
