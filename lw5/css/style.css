@@ -1,0 +1,121 @@
+img
+{
+    border-radius: 5px;
+    background-color: #132d36;
+}
+
+p
+{
+	font: 600 24px/32px Open Sans;
+    color: #15a98c;
+    padding-top: 17px;
+    padding-left: -6px;
+    margin-bottom: -5px;
+}
+
+.films
+{
+	font: 600 24px/32px Open Sans;
+    color: #15a98c;
+    padding-left: -6px;
+    margin-bottom: -5px;
+}
+
+.we
+{
+	font: 28px/42px Georgia;
+    color: #848484;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 4px;
+    padding-left: 60px;
+}
+
+.left
+{
+	padding: 20px;
+    flex-direction: column;
+}
+
+.right
+{
+	padding-left: 40px;
+	padding-top: 130px; 
+	flex-direction: column;
+}
+
+li
+{
+	font: 19px/36px Georgia;
+    color: #555;
+    margin-left: -20px;
+}
+
+.what
+{
+	font: 19px/36px Georgia;
+    color: #555;
+    margin-left: -23px;
+}
+
+.flex
+{
+	display: flex;
+}
+
+h1
+{
+	font: 700 48px/42px Open Sans;
+    color: #333;
+    padding-top: 107px; 
+    padding-left: 3px;
+}
+
+.gamoy
+{
+	font: 19px/32px Georgia;
+    color: #555555;
+    padding-top: 26px;
+}
+
+.rec
+{
+	width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3aa;
+    margin-top: -10px;
+}
+
+h2
+{
+	font: 500 36px/42px Open Sans;
+    color: #333;
+    padding-top: 17px;
+    margin-bottom: -40px;
+    margin-left: -2px;
+}
+
+footer
+{
+	font: 19px/32px Georgia;
+    color: #15a98b;
+    padding: 46px 409px 0;
+    text-decoration: underline;
+}
+
+cite
+{
+	font: 600 16px/42px Open Sans;
+    color: #333333;
+    padding-left: 62px;
+    padding-bottom: 4px;
+}
+
+.nenoy
+{
+	font: 19px/32px Georgia;
+    color: #555555;
+    padding-top: 36px;
+    padding-right: 2px;
+}
