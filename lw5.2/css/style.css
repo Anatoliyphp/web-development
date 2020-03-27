@@ -195,6 +195,7 @@ header
     color: #333333;
     height: 60px;
     background-color: #fff;
+    padding-right: 20px;
     transition: background .2s linear;
     padding-left: 22px;
 }
@@ -202,7 +203,6 @@ header
 .two:hover{
     background-color: #006633;
     color: #fff;
-    width: 140px;
 }
 
 .three
@@ -211,7 +211,7 @@ header
     font: 19px/32px Georgia;
     color: #333333;
     background-color: #fff;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-right: 20px;
     height: 60px;
     transition: background .2s linear;
