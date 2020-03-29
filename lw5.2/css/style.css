@@ -22,11 +22,9 @@ body
 
 blockquote
 {
-    margin: 0;
-    padding: 0;
     flex-direction: row;
     margin-top: -3px;
-    padding-left: 63px ;
+    padding-left: 23px ;
 }
 
 cite
@@ -44,16 +42,16 @@ cite
     margin-bottom: 2px;
 }
 
-.flex2
+.main_block
 {
     display: flex;
     height: 635px;
+    margin-bottom: -40px;
 }
 
 .left
 {
     margin: 0;
-    padding: 0;
     flex-direction: column;
     padding: 20px 19px;
 }
@@ -65,11 +63,11 @@ cite
     margin-bottom: -3px;
 }
 
-.film
+.film_head
 {
     font: 600 24px/32px Open Sans;
     color: #15a98c;
-    padding-top: 17px;
+    margin-top: 42px;
     margin-bottom: -4px;
 }
 
@@ -101,10 +99,10 @@ ol li
 .right
 {
     margin: 0;
-    padding: 0;
     display-flex: column;
     padding: 4px 67px;
     margin-top: -160px;
+    margin-left: 56px;
 }
 
 .rec
@@ -124,7 +122,7 @@ h1
     padding-left: 4px;
 }
 
-h2
+.hobbi
 {
     font: 400 36px/42px Open Sans;
     color: #333333;
@@ -152,82 +150,51 @@ h2
 {
     font: 19px/32px Georgia;
     color: #15a98b;
-    border-bottom: 2px solid #15a98b;
 }
-.end2
+
+.end::after
 {
-    font: 19px/32px Georgia;
-    color: #15a98b;
+    content: '';
+    display: block;
+    width: 115px;
+    height: 2px;
+    margin-top: -7px;
+    background-color: #15a98b;
 }
 
 header
 {
     display: flex;
-    padding-bottom: 200px;
-    padding-left: 45px;
-    margin-top: -10px;
+    margin-bottom: 230px;
+    padding-left: 25px;
     width: 1100px;
-    margin-bottom: 10px;
 }
 
-.one
-{
-    display-flex: row;
-    font: 19px/32px Georgia;
-    color: #333333;
-    margin-left: -25px;
-    background-color: #fff;
-    padding-left: 27px;
-    padding-right: 20px;
-    height: 60px;
-    transition: background .2s linear;
-}
-
-.one:hover{
-    background-color: #006633;
-    color: #fff;
-}
-
-.two
-{
-    display-flex: row;
-    font: 19px/32px Georgia;
-    color: #333333;
-    height: 60px;
-    background-color: #fff;
-    padding-right: 20px;
-    transition: background .2s linear;
-    padding-left: 22px;
-}
-
-.two:hover{
-    background-color: #006633;
-    color: #fff;
-}
-
-.three
+.menu
 {
     display-flex: row;
     font: 19px/32px Georgia;
     color: #333333;
     background-color: #fff;
+    padding-right: 23px;
     padding-left: 20px;
-    padding-right: 20px;
-    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-bottom: -20px;
     transition: background .2s linear;
 }
 
-.three:hover{
-    background-color: #006633;
+.menu:hover{
+    background-color: #45c3aa;
     color: #fff;
-}
+} 
 
 .films
 {
     display: flex;
     margin-left: -100px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 24px;
+    margin-bottom: 48px;
 }
 
 .film
@@ -237,11 +204,11 @@ header
     padding-right: 20px;
 }
 
-.head2
+.best_films
 {
-    margin-top: -24px;
+    font: 400 36px/42px Open Sans;
+    color: #333333;
     margin-left: -100px;
-    width: 100%;
 }
 
 h3
@@ -262,10 +229,10 @@ h3
 .cadr
 {
     border-radius: 5px;
-    margin-bottom: 6px;
+    margin-bottom: 12px;
 }
 
-.all
+.bottom
 {
     font: 19px/32px Georgia;
     color: #f5f5f5;
@@ -274,25 +241,27 @@ h3
     border-radius: 5px;
     padding-right: 55px;
     padding-left: 55px;
-    padding-bottom: 18px;
+    padding-bottom: 15px;
     padding-top: 13px;
     margin-left: 380px;
 }
 
-.all:hover{
+.bottom:hover{
     background-color: #15a98c;
 }
 
 footer
 {
-    margin: 0;
-    padding: 0;
     font-size: 16px;
     line-height: 32px;
     color: #555555;
     font-family: "Georgia";
-    margin-top: 101px;
-    margin-left: 132px;
+    margin-top: 79px;
+    background-color: #DCDCDC;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    margin-left: -460px;
+    padding-left: 593px;
 }
 
 
