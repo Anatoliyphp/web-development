@@ -1,4 +1,4 @@
-body
+.body
 {
     margin: 0;
     padding: 0;
@@ -9,20 +9,19 @@ body
     display: flex;
 }
 
-img
+.avatar
 {
     padding-left: 20px;
     border-radius: 5px;
 }
 
-blockquote
+.blockquote
 {
     margin: 0;
-    flex-direction: row;
     padding: 90px 120px;
 }
 
-cite
+.author
 {
     font: 600 16px/42px Open Sans;
     color: #333333;
@@ -50,35 +49,32 @@ cite
     padding: 20px 19px;
 }
 
-.writer
+.list_head
 {
     font: 600 24px/32px Open Sans;
     color: #15a98c;
     margin-bottom: -3px;
 }
 
-.film
-{
-    font: 600 24px/32px Open Sans;
-    color: #15a98c;
-    margin-top: 40px;
-    margin-bottom: -4px;
-}
-
-ul li
+.ul_li
 {
     font: 19px/36px Georgia;
     color: #555555;
     margin-left: -18px;
 }
 
-ol li
+.ol_li
 {
     margin: 0;
     padding: 0;
     font: 19px/36px Georgia;
     color: #555555;
     margin-left: -18px;
+}
+
+.first_list
+{
+    margin-bottom: 40px;
 }
 
 .true
@@ -93,7 +89,7 @@ ol li
 .right
 {
     margin: 0;
-    display-flex: column;
+    flex-direction: column;
     padding: 4px 124px;
 }
 
@@ -103,35 +99,28 @@ ol li
     height: 6px;
     border-radius: 3px;
     background-color: #45c3aa;
-    margin-top: -9px;
-    padding-right: -1px;
+    margin-top: 30px;
+    margin-bottom: 44px;
 }
 
-h1
+.name
 {
     font: 700 48px/42px Open Sans;
     color: #333333;
     padding-left: 4px;
+    margin-bottom: 0;
 }
 
-h2
+.hobbi
 {
+    margin: 0;
+    padding: 0;
     font: 400 36px/42px Open Sans;
     color: #333333;
-    padding-top: 13px;
     margin-left: -2px;
-    margin-bottom: -3px;
 }
 
-.first
-{
-    font: 19px/32px Georgia;
-    color: #555555;
-    padding-top: 25px;
-    padding-right: 1px;
-}
-
-.second
+.text
 {
     font: 19px/32px Georgia;
     color: #555555;
