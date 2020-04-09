@@ -1,12 +1,12 @@
-body
+.body
 {
     margin: 0;
     padding: 0;
-    padding-left: 460px;
-    width: 100%;
-    background-image: url(../images/james-eades-pMvIjMu9HSM-unsplash-1920x400.jpg);
+    width: 1920px;
+    width: 100%
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
-    background-position-y: 50px; 
+    background-position-y: 50px;
 }
 
 .flex
@@ -20,14 +20,14 @@ body
     border-radius: 5px;
 }
 
-blockquote
+.blockquote
 {
     flex-direction: row;
     margin-top: -3px;
     padding-left: 23px ;
 }
 
-cite
+.author
 {
     font: 600 16px/42px Open Sans;
     color: #fff;
@@ -56,35 +56,32 @@ cite
     padding: 20px 19px;
 }
 
-.writer
+.list_head
 {
     font: 600 24px/32px Open Sans;
     color: #15a98c;
     margin-bottom: -3px;
 }
 
-.film_head
-{
-    font: 600 24px/32px Open Sans;
-    color: #15a98c;
-    margin-top: 42px;
-    margin-bottom: -4px;
-}
-
-ul li
+.ul_li
 {
     font: 19px/36px Georgia;
     color: #555555;
     margin-left: -18px;
 }
 
-ol li
+.ol_li
 {
     margin: 0;
     padding: 0;
     font: 19px/36px Georgia;
     color: #555555;
     margin-left: -18px;
+}
+
+.first_list
+{
+    margin-bottom: 40px;
 }
 
 .true
@@ -99,7 +96,7 @@ ol li
 .right
 {
     margin: 0;
-    display-flex: column;
+    flex-direction: column;
     padding: 4px 67px;
     margin-top: -160px;
     margin-left: 56px;
@@ -113,17 +110,21 @@ ol li
     background-color: #45c3aa;
     margin-top: -9px;
     padding-right: -1px;
+    margin-bottom: 44px;
 }
 
-h1
+.name
 {
     font: 700 48px/42px Open Sans;
     color: #333333;
     padding-left: 4px;
+    margin-bottom: 40px;
 }
 
 .hobbi
 {
+    margin: 0;
+    padding: 0;
     font: 400 36px/42px Open Sans;
     color: #333333;
     padding-top: 13px;
@@ -131,19 +132,11 @@ h1
     margin-bottom: -4px;
 }
 
-.first
+.text
 {
     font: 19px/32px Georgia;
     color: #555555;
-    padding-top: 25px;
-    padding-right: 1px;
-}
-
-.second
-{
-    font: 19px/32px Georgia;
-    color: #555555;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .end
@@ -162,29 +155,25 @@ h1
     background-color: #15a98b;
 }
 
-header
+.header
 {
     display: flex;
     margin-bottom: 230px;
     padding-left: 25px;
-    width: 1100px;
 }
 
-.menu
+.menu_item
 {
-    display-flex: row;
+    flex-direction: row;
     font: 19px/32px Georgia;
     color: #333333;
     background-color: #fff;
-    padding-right: 23px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 8px;
+    padding: 10px 20px 8px;
     margin-bottom: -20px;
     transition: background .2s linear;
 }
 
-.menu:hover{
+.menu_item:hover{
     background-color: #45c3aa;
     color: #fff;
 } 
@@ -192,7 +181,6 @@ header
 .films
 {
     display: flex;
-    margin-left: -100px;
     margin-top: 24px;
     margin-bottom: 48px;
 }
@@ -208,10 +196,9 @@ header
 {
     font: 400 36px/42px Open Sans;
     color: #333333;
-    margin-left: -100px;
 }
 
-h3
+.film_head
 {
     font: 700 22px/32px Open Sans;
     color: #333333;
@@ -250,19 +237,14 @@ h3
     background-color: #15a98c;
 }
 
-footer
+.footer
 {
-    font-size: 16px;
-    line-height: 32px;
+    font: 16px/32px Georgia;
     color: #555555;
-    font-family: "Georgia";
     margin-top: 79px;
     background-color: #DCDCDC;
     padding-top: 20px;
     padding-bottom: 18px;
-    margin-left: -460px;
-    padding-left: 593px;
+    text-align: center;
+    width: 1920px;
 }
-
-
-
