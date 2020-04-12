@@ -10,15 +10,9 @@
   <body class="body">
     <article>
       <header class="header">
-        <div class="menu_item">
-          <a><i class="fas fa-child"></i> Обо мне</a>
-        </div>
-        <div class="menu_item">
-          <a><i class="fas fa-heart"></i> Мое хобби</a>
-        </div>
-        <div class="menu_item">
-          <a><i class="fas fa-video"></i> Любимые фильмы</a>
-        </div>
+        <a class="menu_item" href="#me"><i class="fas fa-child"></i> Обо мне</a>
+        <a class="menu_item" href="#hobbi"><i class="fas fa-heart"></i> Мое хобби</a>
+        <a class="menu_item" href="#films"><i class="fas fa-video"></i> Любимые фильмы</a>
       </header>
       <div class="flex">     
         <img class="main" width="330" height="350" src="images/warface_sample.jpg" alt="main">
@@ -48,7 +42,7 @@
             </ol>
         </div>
         <div class="right">
-          <h1 class="name">Jane Doe</h1>
+          <h1 class="name"><span id="me"></span>Jane Doe</h1>
           <p class="rec"></p>
           <p class="text">
             В 1930-е годы прошлого века физик Джордж Гамоу из<br>
@@ -58,7 +52,7 @@
             явствовало из этих историй, интересовался современной<br>
             наукой.<br>
           </p>
-          <h2 class="hobbi">Мое хобби</h2>
+          <h2 id="hobbi" class="hobbi">Мое хобби</h2>
           <p class="text">
             Он регулярно посещал вечерние лекции местного профессора<br>
             и, разумеется, всегда засыпал на самом интересном месте.<br> 
@@ -69,7 +63,7 @@
           <a class="end">Напиши мне →</a>
         </div>
       </div>
-      <h2 class="best_films">Любимые фильмы</h2>
+      <h2 id="films" class="best_films">Любимые фильмы</h2>
       <div class="films">
         <div class="film">
           <img class="cadr" width="285" height="190" src="images/first_film.jfif" alt="first film">
@@ -100,7 +94,7 @@
           </p>  
         </div> 
       </div>
-      <a class="bottom">Все фильмы </a>
+      <a href="" class="bottom">Все фильмы </a>
       <div class="decoration">
       	<span class="line"></span>
       	<span class="phrase">НАПИШИ МНЕ</span>
