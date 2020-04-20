@@ -43,7 +43,7 @@
         </div>
         <div class="right">
           <h1 class="name"><span id="me"></span>Jane Doe</h1>
-          <p class="rec"></p>
+          <figure class="rec"></figure>
           <p class="text">
             В 1930-е годы прошлого века физик Джордж Гамоу из<br>
             университета штата Колорадо начал публиковать<br>
@@ -60,7 +60,7 @@
             параллельном мире, где один из основных законов физики<br>
             действовал не так, как в его мире.<br>
           </p>
-          <a class="end">Напиши мне →</a>
+          <a class="end" href="#form">Напиши мне →</a>
         </div>
       </div>
       <h2 id="films" class="best_films">Любимые фильмы</h2>
@@ -94,29 +94,25 @@
           </p>  
         </div> 
       </div>
-      <a href="" class="bottom">Все фильмы </a>
-      <div class="decoration">
-      	<span class="line"></span>
-      	<span class="phrase">НАПИШИ МНЕ</span>
-      	<span class="line"></span>
-      </div>
-      <form action="form.php" method="GET">
-      	<p>Ваше имя <span>*</span></p>
-      	<input type="text" name="name"/>
-      	<p>Ваш email <span>*</span></p>
-       <input type="text" name="mail"/>
-      	<p>Откуда вы?<br/></p>
-      	 <select name="country">
+      <a href="" class="films_bottom">Все фильмы </a>
+      <span class="phrase" id="form">НАПИШИ МНЕ</span>
+      <form action="form.php" method="POST">
+      	<label for="name">Ваше имя <span>*</span></label>
+      	<input id="name" type="text" name="name" pattern="[A-Z][a-z]{1,10}" /></br>
+      	<label for="mail">Ваш email <span>*</span></label>
+       <input id="mail" type="text" name="mail" pattern="[A-Za-z][0-9a-z]{1,15}[@]gmail.com|mail.ru" />
+      	<label for="country">Откуда вы?</label>
+      	 <select id="country" name="country">
       	    <option>Россия</option>
       	    <option>Украина</option>
       	 </select>
-      	<p>Ваш пол</p>
-      	<input type="radio" name="man"/>
-      	<label>Мужской</label>
-      	<input type="radio" name="woman"/>
-      	<label>Женский</label>
-      	<p class="message">Ваше сообщение <span>*</span></p>
-      	<textarea name="text" rows="10"></textarea> 
+      	<label>Ваш пол</label>
+      	<div class="radio_but">
+      	  <label for="men" class="ra"><input id="men" type="radio" name="Ra"/> Мужской</label>
+      	  <label for="women" class="ra"><input id="women" type="radio" name="Ra"/> Женский</label>
+        </div>
+      	<label for="mes" class="message">Ваше сообщение <span>*</span></label>
+      	<input type="textarea" id="mes" name="text" rows="10"></input> 
       	<input type="submit"/>
       </form> 
     </article>
