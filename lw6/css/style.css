@@ -280,6 +280,12 @@ select
     border-color: #15a98c;
     margin-bottom: 47px;
     font: 400 18px/32px Open Sans;
+    -webkit-appearance: none;
+    background-image: url(../images/arroy.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 480px; 
+    background-position-y: 20px;
 }
 
 option
