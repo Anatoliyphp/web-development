@@ -108,8 +108,8 @@
       	 </select>
       	<label>Ваш пол</label>
       	<div class="radio_but">
-      	  <label for="men" class="ra"><input id="men" type="radio" name="Ra"/> Мужской</label>
-      	  <label for="women" class="ra"><input id="women" type="radio" name="Ra"/> Женский</label>
+      	  <label for="men" class="ra"><input id="men" type="radio" name="Ra" value="men" /> Мужской</label>
+      	  <label for="women" class="ra"><input id="women" type="radio" name="Ra" value="women"/> Женский</label>
         </div>
       	<label for="mes" class="message">Ваше сообщение <span>*</span></label>
       	<input type="textarea" id="mes" name="text" rows="10"></input> 
