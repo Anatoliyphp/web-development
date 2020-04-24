@@ -3,23 +3,13 @@
     {
       return isset($_GET[$text]) ? (string)$_GET[$text] : null;
     };
-
-    $identifier = getGETParameter('identifier');
-    if($identifier != null)
-    {
-        if (preg_match('/^0/', $identifier))
-        {
-            echo 'No.The first symbol is incorrect.';
-        }
-        else
-        {
-            $result = preg_match('/^a/', $identifier) ? 'No.Doesnt match the rule.' : 'YES';
-            echo $result;
-        };
-    }
-    else
-    {
-        echo 'No';
-    };
-
- 
+  $identifier = getGetParameter('identifier');
+  $arr = str_split($identifier); 
+  if ($arr[0] = '1')
+  {
+    echo 'No';
+  }
+  else
+  {
+    echo 'Yes';
+  }
