@@ -1,18 +1,25 @@
 <?php
-  function getGetParametr(string $text):?string
-  {
-    return isset($_GET[$text]) ? (string)$_GET[$text] : null;
-  }
+    function getGetParameter(string $text):?string
+    {
+      return isset($_GET[$text]) ? (string)$_GET[$text] : null;
+    };
 
-  $text = getGetParametr('text');
-  if (ctype_digit(string $text))
-  {
-  echo 'No'
-  }
-  else
-  }
-  echo 'Yes'
-  {  
-  header("Content-Type: text/plain");
-  echo $text;
-  
+    $identifier = getGETParameter('identifier');
+    if($identifier != null)
+    {
+        if (preg_match('/^0/', $identifier))
+        {
+            echo 'No.The first symbol is incorrect.';
+        }
+        else
+        {
+            $result = preg_match('/^a/', $identifier) ? 'No.Doesnt match the rule.' : 'YES';
+            echo $result;
+        };
+    }
+    else
+    {
+        echo 'No';
+    };
+
+ 
