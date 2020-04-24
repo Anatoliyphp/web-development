@@ -226,10 +226,7 @@
     transition: background .2s linear;
     background-color: #098d71;
     border-radius: 5px;
-    padding-right: 55px;
-    padding-left: 55px;
-    padding-bottom: 15px;
-    padding-top: 13px;
+    padding: 14px 55px;
     margin-left: 380px;
 }
 
