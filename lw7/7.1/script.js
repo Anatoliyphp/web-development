@@ -1,4 +1,4 @@
-let n = ['a'];
+let n = [7];
 isPrimeNumber(n);
 
 function isPrimeNumber(n){
@@ -14,8 +14,8 @@ function isPrimeNumber(n){
     }
     else{
       for (let y = 0; y < n.length; y++){
-    	    if ((n[y] % 2) == 0){
-    		    if(n[y] == 2){
+    	    if (((n[y] % 2) == 0) || ((n[y] % 3) == 0) || ((n[y] % 5) == 0) || ((n[y] % 7) == 0)){
+    		    if((n[y] == 2) || (n[y] == 3) || (n[y] == 5) || (n[y] == 7)){
     			    console.log(n[y], ' простое число');
     	        }
     	        else
