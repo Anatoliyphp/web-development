@@ -100,7 +100,7 @@
       	<label for="name">Ваше имя <span>*</span></label>
       	<input id="name" type="text" name="name" pattern="[A-Z][a-z]{1,10}" /></br>
       	<label for="mail">Ваш email <span>*</span></label>
-       <input id="mail" type="text" name="mail" pattern="[A-Za-z][0-9a-z]{1,15}[@]gmail.com|mail.ru" />
+       <input id="mail" type="text" name="mail" pattern="[A-Za-z][0-9a-z]{1,15}[@](gmail.com||mail.ru)" />
       	<label for="country">Откуда вы?</label>
       	 <select id="country" name="country">
       	    <option>Россия</option>
@@ -112,7 +112,7 @@
       	  <label for="women" class="ra"><input id="women" type="radio" name="Ra" value="women"/> Женский</label>
         </div>
       	<label for="mes" class="message">Ваше сообщение <span>*</span></label>
-      	<input type="textarea" id="mes" name="text" rows="10"></input> 
+      	<textarea id="mes" name="text" rows="10"></textarea> 
       	<input type="submit"/>
       </form> 
     </article>

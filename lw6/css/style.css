@@ -294,7 +294,7 @@ option
     color: #555555;
 }
 
-input[type="textarea"]
+textarea
 {
     width: 540px;
     height: 150px;
@@ -303,7 +303,7 @@ input[type="textarea"]
     resize: none;
 }
 
-input[type="textarea"]:hover{    
+textarea:hover{    
     border: 2px solid #15a98c;
 }
 
