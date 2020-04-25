@@ -267,6 +267,7 @@ input[type="text"]
     height: 50px;
     border-radius: 3px;
     margin-bottom: 20px;
+    outline: none;
 }
 input[type="text"]:hover{
    border: 2px solid #15a98c; 
@@ -301,6 +302,8 @@ textarea
     border-radius: 3px;
     margin-bottom: 40px;
     resize: none;
+    border-width: 2px;
+    outline: none;
 }
 
 textarea:hover{    
@@ -343,14 +346,6 @@ input[type="submit"]
 
 input[type="submit"]:hover{
     background-color: #15a98c;
-}
-
-input:focus{
-    border: 2px solid  #15a98c;
-    box-shadow: 0;
-}
-input:active{
-    border: 2px solid  #15a98c;
 }
 
 .message
