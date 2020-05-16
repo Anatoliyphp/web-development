@@ -14,6 +14,8 @@
         <a class="menu_item" href="#hobbi"><i class="fas fa-heart"></i> Мое хобби</a>
         <a class="menu_item" href="#films"><i class="fas fa-video"></i> Любимые фильмы</a>
       </header>
+      <div class ="back"><img src="images/background.jpg"></div>
+      <div class ="back_2"></div>
       <div class="flex">     
         <img class="main" width="330" height="350" src="images/warface_sample.jpg" alt="main">
         <blockquote class="blockquote">
@@ -43,7 +45,7 @@
         </div>
         <div class="right">
           <h1 class="name"><span id="me"></span>Jane Doe</h1>
-          <figure class="rec"></figure>
+          <hr class="rec"></hr>
           <p class="text">
             В 1930-е годы прошлого века физик Джордж Гамоу из<br>
             университета штата Колорадо начал публиковать<br>
@@ -94,11 +96,11 @@
           </p>  
         </div> 
       </div>
-      <a href="" class="films_bottom">Все фильмы </a>
+      <a href="" class="films_botton">Все фильмы </a>
       <span class="phrase" id="form">НАПИШИ МНЕ</span>
       <form action="form.php" method="POST">
       	<label for="name">Ваше имя <span>*</span></label>
-      	<input id="name" type="text" name="name" pattern="[A-Z][a-z]{1,10}" /></br>
+      	<input id="name" type="text" name="name" pattern="[A-Z][a-z]{1,10}" /><br>
       	<label for="mail">Ваш email <span>*</span></label>
        <input id="mail" type="text" name="mail" pattern="[A-Za-z][0-9a-z]{1,15}[@](gmail.com||mail.ru)" />
       	<label for="country">Откуда вы?</label>
@@ -108,8 +110,8 @@
       	 </select>
       	<label>Ваш пол</label>
       	<div class="radio_but">
-      	  <label for="men" class="ra"><input id="men" type="radio" name="Ra" value="men" /> Мужской</label>
-      	  <label for="women" class="ra"><input id="women" type="radio" name="Ra" value="women"/> Женский</label>
+      	  <label for="men" class="ra"><input id="men" type="radio" name="gender" value="men" /> Мужской</label>
+      	  <label for="women" class="ra"><input id="women" type="radio" name="gender" value="women"/> Женский</label>
         </div>
       	<label for="mes" class="message">Ваше сообщение <span>*</span></label>
       	<textarea id="mes" name="text" rows="10"></textarea> 

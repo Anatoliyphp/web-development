@@ -2,15 +2,33 @@
 {
     margin: 0;
     width: 1200px;
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-position-y: 50px; 
+    margin: auto;
+
+}
+
+.back
+{
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.back_2
+{
+    position: absolute;
+    left: 75px;
+    top: 1200px;
+    width: 1200px;
+    height: 1050px;
+    background-color: #DCDCDC;
+    z-index: 0;
 }
 
 .flex
 {
     display: flex;
     padding-left: 100px;
+    position: relative;
 }
 
 .main
@@ -156,11 +174,12 @@
     display: flex;
     margin-bottom: 210px;
     padding-left: 125px;
-    width: 1920px;
+    width: 100%;
     position: sticky;
     top: 0;
     background-color: #fff;
     height: 50px;
+    z-index: 2;
 }
 
 .menu_item
@@ -184,7 +203,7 @@
     display: flex;
     margin-top: 24px;
     margin-bottom: 38px;
-    background-color: #DCDCDC;
+    position: relative;
 }
 
 .film
@@ -198,6 +217,7 @@
 {
     font: 400 36px/42px Open Sans;
     color: #333333;
+    position: relative;
 }
 
 .head_3
@@ -221,7 +241,7 @@
     margin-bottom: 12px;
 }
 
-.films_bottom
+.films_botton
 {
     display: block;
     max-width: 1200px;
@@ -235,6 +255,7 @@
     padding: 10px 50px;
     width: 120px;
     text-decoration: none;
+    position: relative;
 }
 
 .films_bottom:hover{
