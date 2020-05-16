@@ -1,0 +1,437 @@
+.body
+{
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+
+}
+
+.back
+{
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.flex
+{
+    display: flex;
+    padding-left: 100px;
+    position: relative;
+}
+
+.main
+{
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.blockquote
+{
+    margin-top: -3px;
+    padding-left: 23px ;
+}
+
+.cite
+{
+    font: 600 16px/42px Open Sans;
+    color: #fff;
+    padding-left: 2px;
+}
+
+.quote
+{
+    font: 28px/42px Georgia;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+.main_block
+{
+    display: flex;
+    height: 635px;
+    margin-bottom: -40px;
+    padding-left: 100px;
+}
+
+.left
+{
+    margin: 0;
+    flex-direction: column;
+    padding: 20px 19px;
+}
+
+.list_head
+{
+    font: 600 24px/32px Open Sans;
+    color: #15a98c;
+    margin-bottom: 7px;
+}
+
+.ul_li
+{
+    font: 19px/36px Georgia;
+    color: #555555;
+    margin-left: -18px;
+}
+
+.ul
+{
+    margin-bottom: 40px;
+}
+
+.ol_li
+{
+    margin: 0;
+    padding: 0;
+    font: 19px/36px Georgia;
+    color: #555555;
+    margin-left: -18px;
+}
+
+.true
+{
+    margin: 0;
+    padding: 0;
+    font: 19px/36px Georgia;
+    color: #555555;
+    margin-left: -22px;
+}
+
+.right
+{
+    margin: 0;
+    flex-direction: column;
+    padding: 4px 67px;
+    margin-top: -160px;
+    margin-left: 56px;
+}
+
+.rec
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3aa;
+    margin-left: 0;
+    margin-bottom: 44px;
+}
+
+.name
+{
+    margin-bottom: 30px;
+    font: 700 48px/42px Open Sans;
+    color: #333333;
+    padding-left: 4px;
+}
+
+.hobbi
+{
+    font: 400 36px/42px Open Sans;
+    color: #333333;
+    padding-top: 13px;
+    margin-left: -2px;
+    margin-bottom: -4px;
+}
+
+.text
+{
+    font: 19px/32px Georgia;
+    color: #555555;
+}
+
+.end
+{
+    font: 19px/32px Georgia;
+    color: #15a98b;
+    text-decoration: none;
+}
+
+.end::after
+{
+    content: '';
+    display: block;
+    width: 115px;
+    height: 2px;
+    margin-top: -7px;
+    background-color: #15a98b;
+}
+
+.header
+{
+    display: flex;
+    margin-bottom: 210px;
+    padding-left: 125px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    height: 50px;
+    z-index: 2;
+}
+
+.menu_item
+{
+    display: block;
+    font: 19px/32px Georgia;
+    color: #333333;
+    background-color: #fff;
+    padding: 9px 21px;
+    text-decoration: none;
+    transition: background .2s linear;
+}
+
+.menu_item:hover{
+    background-color: #45c3aa;
+    color: #fff;
+} 
+
+.films
+{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 38px;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.carousel{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #DCDCDC;
+}
+
+.left_arroy
+{
+    position: absolute;
+    left: 1%;
+    top: 250%;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-size: 85px;
+    background-position: 50% 50%;
+    border-radius: 40px;
+    transition: 0.6s ease;
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+.right_arroy
+{
+    position: absolute;
+    right: -0.5%;
+    top: 250%;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-size: 85px;
+    background-position: 50% 50%;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.6s ease;
+    transform: rotate(90deg);
+}
+
+.film
+{
+    flex-direction: row;
+    width: 285px;
+    padding-right: 20px;
+}
+
+.best_films
+{
+    font: 400 36px/42px Open Sans;
+    color: #333333;
+}
+
+.head_3
+{
+    font: 700 22px/32px Open Sans;
+    color: #333333;
+    margin-top: 10px;
+    margin-left: -1px;
+    margin-bottom: 5px;
+}
+
+.desc
+{
+    font: 16px/28px Georgia;
+    color: #555555;
+}
+
+.cadr
+{
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.films_botton
+{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font: 19px/32px Georgia;
+    color: #f5f5f5;
+    transition: background .2s linear;
+    background-color: #15a98c;
+    border-radius: 5px;
+    padding: 10px 50px;
+    width: 120px;
+    text-decoration: none;
+}
+
+.films_bottom:hover{
+    background-color: #098d71;
+}
+
+.footer
+{
+    font: 16px/32px Georgia;
+    color: #555555;
+    margin-top: 57px;
+    background-color: #DCDCDC;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    width: auto;
+    padding-bottom: 18px;
+}
+
+form
+{
+    margin: 0 auto;
+    margin-left: 330px;
+    margin-top: 64px;
+}
+
+input[type="text"]
+{
+    width: 540px;
+    height: 50px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    outline: none;
+}
+input[type="text"]:hover{
+   border: 2px solid #15a98c; 
+}
+
+select
+{
+    width: 540px;
+    height: 50px;
+    border: unset;
+    border-color: #15a98c;
+    margin-bottom: 47px;
+    font: 400 18px/32px Open Sans;
+    -webkit-appearance: none;
+    background-image: url(../images/arroy.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 480px; 
+    background-position-y: 20px;
+}
+
+option
+{
+    font: 400 18px/32px Open Sans;
+    color: #555555;
+}
+
+textarea
+{
+    width: 540px;
+    height: 150px;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    resize: none;
+    border-width: 2px;
+    outline: none;
+}
+
+textarea:hover{    
+    border: 2px solid #15a98c;
+}
+
+label span
+{
+    color: red;
+}
+
+.ra
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 400;
+    padding-right: 40px;
+}
+
+label
+{
+    font: 400 18px/32px Open Sans;
+    color: #333333;
+    display: block;
+}
+
+input[type="submit"]
+{
+    font: 19px/32px Georgia;
+    color: #f5f5f5;
+    background-color: #098d71;
+    border-radius: 5px;
+    padding: 10px 50px;
+    border: none;
+    display: block;
+    text-align: center;
+}
+
+input[type="submit"]:hover{
+    background-color: #15a98c;
+}
+
+.message
+{
+    margin-top: 40px;
+}
+
+.phrase
+{
+    font: 300 36px/42px Open Sans;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.phrase::after{
+    margin-left: 20px;
+    content: '';
+    width: 200px;
+    height: 1px;
+    background-color: #f1ebe7;
+}
+
+.phrase::before{
+    margin-right: 20px;
+    content: '';
+    width: 200px;
+    height: 1px;
+    background-color: #f1ebe7;
+}
+
+.radio_but
+{
+    display: flex;
+}
