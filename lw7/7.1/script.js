@@ -1,4 +1,4 @@
-let n = [1, 2, 3, 4];
+let n = [1, 4, 55, 7];
 let isNumberArray = n.every(isInteger);
 let isPrime = false;
 isPrimeNumber(n);
@@ -20,7 +20,6 @@ function checkPrime(n){
 }
 
 function isPrimeNumber(n){
-  checkPrime(n);
   if (isNumberArray){
     if (n.length == 0){
       console.log('Данные не введены')
