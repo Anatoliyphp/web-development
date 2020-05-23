@@ -1,29 +1,29 @@
 let n = [1, 2, 3, 4];
+let isNumberArray = n.every(isInteger);
+let isPrime = false;
 isPrimeNumber(n);
 
-function isPrimeNumber(n){
-  let isNumberArray = n.every(isInteger);
-  let isPrime = false;
+function isInteger(elem){
+  return((typeof elem) === "number");
+}
 
-  function checkPrime(n){
-    for(let i = 2; i <= n; i++){
-      isPrime = true;
-        for(let j = 2; j < i; j++){
-          if ((i % j) === 0){
-            isPrime = false;
-            break;
-          }
+function checkPrime(n){
+  for(let i = 2; i <= n; i++){
+    isPrime = true;
+      for(let j = 2; j < i; j++){
+        if ((i % j) === 0){
+          isPrime = false;
+          break;
         }
-    }
+      }
   }
+}
 
-  function isInteger(elem){
-  	return((typeof elem) === "number");
-  }
-
+function isPrimeNumber(n){
+  checkPrime(n);
   if (isNumberArray){
     if (n.length == 0){
-  	  console.log('Данные не введены')
+      console.log('Данные не введены')
     }
     else{
       for (let y = 0; y < n.length; y++){
@@ -38,6 +38,6 @@ function isPrimeNumber(n){
     }
   }
   else{
-  	console.log('Данные введены некорректно');
+    console.log('Данные введены некорректно');
   }
 }
