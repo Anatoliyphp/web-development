@@ -97,8 +97,8 @@
         </div> 
       </div>
       <a href="" class="films_botton">Все фильмы </a>
-      <span class="phrase" id="form">НАПИШИ МНЕ</span>
       <form action="form.php" method="POST">
+      	<span class="phrase" id="form">НАПИШИ МНЕ</span>
       	<label for="name">Ваше имя <span>*</span></label>
       	<input id="name" type="text" name="name" pattern="[A-Z][a-z]{1,10}" /><br>
       	<label for="mail">Ваш email <span>*</span></label>
